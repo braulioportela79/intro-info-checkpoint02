@@ -1,8 +1,4 @@
-![](RackMultipart20220315-4-14p51hv_html_6ed47a29bdcfbf6b.png) ![](RackMultipart20220315-4-14p51hv_html_7f69e65525c781ba.png)
-
-##
 # **Checkpoint: BlogII DH**
- ![](RackMultipart20220315-4-14p51hv_html_652b8cfed9664d5.png) ![](RackMultipart20220315-4-14p51hv_html_652b8cfed9664d5.png)
 
 Parabéns! Chegamos à segunda parte do checkpoint do curso de Introdução à Informática.
 
@@ -14,8 +10,6 @@ Parabéns! Chegamos à segunda parte do checkpoint do curso de Introdução à I
 - **A apresentação ocorrerá durante a aula ao vivo (síncrona).**
 - **É importante ter em mente que esta atividade é obrigatória.**
 - **Os alunos serão avaliados pela apresentação, por isso é importante que todos tenham um tempo de fala durante o seminário.**
-
-![Shape 2](RackMultipart20220315-4-14p51hv_html_76de32c032b80c6c.gif)
 
 #
 # **Instruções para o Seminário**
