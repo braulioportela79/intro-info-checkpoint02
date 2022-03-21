@@ -172,10 +172,13 @@ ol {
   object-fit: cover;
   width: 100%;
   height: 150px;
+
+  mix-blend-mode: luminosity;
+  filter: grayscale(100%) contrast(1);
 }
 
 .sidebar .topicImage {
-  width: 100%;
+  width: 98%;
   margin-bottom: 15px;
 }
 
@@ -188,32 +191,72 @@ ol {
 .sidebar {
   width: 250px;
   border-left: 1px solid rgba(209, 232, 226, 0.2);
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 20px;
   overflow-x: hidden;
 }
 
 .sidebar ul {
-  padding-left: 20px;
+  padding-left: 0px;
   position: relative;
   list-style: none;
-  line-height: 30px;
-  margin-bottom: 20px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.sidebar ul ul {
+  padding-left: 20px;
 }
 
 .sidebar li {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  color: var(--secondary-color);
 }
+
+.sidebar li {
+  font-weight: bold;
+}
+
+.sidebar li {
+  font-weight: bold;
+}
+
+.sidebar li li {
+  line-height: 28px;
+  color: var(--text-color);
+  font-weight: normal;
+  border-bottom: none;
+}
+
 .sidebar li a:first-child {
   margin-right: 10px;
 }
 
 .sidebar li::before {
-  content: '⊚';
+  content: '';
   font-size: 10px;
   position: absolute;
   left: 0;
+}
+
+.sidebar li li::before {
+  content: '⚬';
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border: 4px solid var(--primary-bg-color);
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: var(--primary-bg-color);
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 12px;
 }
 
 li svg {
@@ -224,8 +267,12 @@ li svg {
   margin-left: 5px;
 }
 
+.social__links {
+  margin-right: 10px;
+}
+
 .social__links a {
-  top: -1px;
+  top: -2px;
   display: inline-block;
   text-decoration: none;
   text-decoration-skip-ink: auto;
@@ -235,13 +282,17 @@ li svg {
 }
 
 .social__links a:hover {
-  color: #64ffda;
+  color: var(--secondary-color);
   transform: translateY(-5px);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-a:hover {
-  color: #64ffda;
+.sidebar a {
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: var(--secondary-color);
 }
 
 footer {
