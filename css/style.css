@@ -184,6 +184,49 @@ ol {
 
 .sidebar ul {
   padding-left: 20px;
+  position: relative;
+  list-style: none;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.sidebar li {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar li a:first-child {
+  margin-right: 10px;
+}
+
+.sidebar li::before {
+  content: '⊚';
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+}
+
+li svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  max-width: 100%;
+  margin-left: 5px;
+}
+
+.social__links a {
+  top: -1px;
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.social__links a:hover {
+  color: #64ffda;
+  transform: translateY(-5px);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 footer {
