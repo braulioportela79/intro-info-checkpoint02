@@ -201,3 +201,27 @@ footer img {
   width: 20%;
   color: #000;
 }
+
+@media (max-height: 969px) {
+  footer {
+    padding-top: 60px;
+  }
+}
+
+@media (max-height: 886px) {
+  footer {
+    padding-top: 40px;
+  }
+}
+
+@media (max-height: 790px) {
+  footer {
+    padding-top: 20px;
+  }
+}
+
+@media (max-height: 724px) {
+  footer {
+    padding-top: 5px;
+  }
+}
