@@ -189,6 +189,10 @@ ol {
   flex-direction: column;
 }
 
+.page a {
+  color: var(--secondary-color);
+}
+
 .info_news {
   display: flex;
   gap: 20px;
